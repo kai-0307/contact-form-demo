@@ -9,7 +9,9 @@ https://site.bsl-jp.com/ssl/cgi-bin/bslkb.cgi?task=showqa&KB=KB003935&via=KBSear
 ### 補足
 
 .envの作成が必要です。
+
 .envにEMAIL_USERとEMAIL_PASSを設定してください。
 
 ※ EMAIL_USERは、test用のGmailアドレス
+
 ※ EMAIL_PASSは、「Gmailのアプリパスワードを生成する方法」のリンクを参考
