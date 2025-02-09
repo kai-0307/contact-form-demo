@@ -3,8 +3,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/api/:path*",
-        destination: "http://localhost:8000/api/:path*",
+        source: "/api/:path*", // フロントエンドの API エンドポイント
+        destination: "/api/:path*", // Next.js の API Routes にリダイレクト
       },
     ];
   },
